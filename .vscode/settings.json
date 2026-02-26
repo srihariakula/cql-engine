@@ -55,9 +55,9 @@
 		"checkstyle.xml"
 	],
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true,
-		"editor.formatOnSave": true
-	},
+        "source.organizeImports": "explicit",
+        "editor.formatOnSave": "explicit"
+    },
 	"files.exclude": {
 		"**/.classpath": true,
 		"**/.project": true,
