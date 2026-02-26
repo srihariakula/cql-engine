@@ -19,3 +19,5 @@ Snap.*
 **/test-output
 .gradle
 test-output
+__pycache__/
+*.pyc

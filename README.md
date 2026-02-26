@@ -13,6 +13,15 @@ The specification includes informative open source tooling that can be used to v
 
 This project builds on that tooling to provide an open source Java-based evaluation engine capable of evaluating the result of any CQL expression.
 
+
+## Python Conversion Status
+
+This repository now includes an initial Python port scaffold under `python/` that mirrors the Java package layout and class surface area.
+
+- Generate/update scaffolding with `python3 scripts/convert_java_to_python.py`
+- Install as a package with `pip install -e .`
+- Complete behavioral migration by replacing generated `NotImplementedError` methods with Python implementations.
+
 ## Repository
 
 This repository uses stable trunk methodology:
